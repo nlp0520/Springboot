@@ -1,0 +1,11 @@
+
+person:
+  name: zhangsan
+  age: 13
+  likes:
+    - book
+    - play
+    - girl
+spring:
+  profiles:
+    active: test
