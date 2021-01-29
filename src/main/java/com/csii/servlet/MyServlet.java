@@ -13,7 +13,7 @@ import java.io.IOException;
  * @Description:com.csii.servlet
  * @Version:1.0
  */
-@WebServlet(name = "myServlet",urlPatterns = "/nlp")
+@WebServlet(name = "myServlet",urlPatterns = "/srv")
 public class MyServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

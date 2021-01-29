@@ -9,3 +9,4 @@ person:
 spring:
   profiles:
     active: test
+

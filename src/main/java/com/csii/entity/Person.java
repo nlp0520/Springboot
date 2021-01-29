@@ -11,14 +11,22 @@ import java.util.List;
  * @Description:com.csii.entity
  * @Version:1.0
  */
-@ConfigurationProperties(prefix = "person")
-@Component
+//@ConfigurationProperties(prefix = "person")
+//@Component
 public class Person {
 
     private String name;
     private Integer age;
     private List<String> likes;
 
+    public Person(String name, Integer age, List<String> likes) {
+        this.name = name;
+        this.age = age;
+        this.likes = likes;
+    }
+    public Person(){
+
+    }
     public String getName() {
         return name;
     }
